@@ -1,0 +1,3 @@
+GET /users/{userId}
+POST /users/{userId}/posts
+PUT /users/{userId}/posts/{postId}

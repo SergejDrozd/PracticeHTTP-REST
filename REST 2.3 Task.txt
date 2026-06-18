@@ -1,0 +1,17 @@
+{
+  "id": 42,
+  "title": "Ошибка при авторизации",
+  "status": "in_progress",
+  "description": "Проблема воспроизводится при входе через мобильное приложение",
+
+  "_links": {
+    "complete": {
+      "href": "/tasks/42/complete",
+      "method": "POST"
+    },
+    "add_time_log": {
+      "href": "/tasks/42/time-log",
+      "method": "POST"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: https://example-client.com
+Access-Control-Allow-Methods: GET, POST, PUT
+Content-Type: application/json
+
+{
+  "status": "ok",
+  "message": "CORS headers applied"
+}
+
+
+Access-Control-Allow-Origin - определяет какому домену разрешён обращаться к ресурсу, если запрос пришёл с домена, отличного от написанного, то браузер заблокирует ответ
+
+Access-Control-Allow-Methods - Определяет, какой тип разрешён
+
+Content-Type - Указывает структуру ответа

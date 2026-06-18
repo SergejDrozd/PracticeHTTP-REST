@@ -1,0 +1,10 @@
+PUT users123 HTTP1.1
+Host social.example.com
+Content-Type applicationjson
+Content-Length 85
+
+{
+  name Sergey Drozd,
+  age 28,
+  bio Студент
+}
